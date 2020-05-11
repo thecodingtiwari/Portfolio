@@ -872,7 +872,7 @@ font-size: 100px;
 
 .portfolio-wrap{
   margin-bottom: 30px;
-  position: relative;
+  position: static;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -889,7 +889,7 @@ font-size: 100px;
 }
 
 .portfolio-wrap a:before {
-  position: absolute;
+  position: static;
   content: "";
   font-family: "Font Awesome 5 Free";
   height: 100%;
@@ -914,7 +914,7 @@ font-size: 100px;
 }
 
 .portfolio-hover{
-  position: absolute;
+  position: static;
   bottom: 60px;
   left: 80px;
   color: #fff;
@@ -963,7 +963,7 @@ font-size: 100px;
   color: #fff;
   font-weight: 500;
   word-spacing: 4px;
-  position: relative;
+  position: static;
   letter-spacing: 1px;
   margin-left: 50px;
   margin-bottom: 7px;
@@ -985,7 +985,7 @@ font-size: 100px;
 }
 
 .portfolio-hover span:before {
-  position: absolute;
+  position: static;
   content: "";
   left: -35px;
   top: 8px;
@@ -998,7 +998,6 @@ font-size: 100px;
 {
   height: 100% !important;
   width: 100%;
-  overflow: hidden;
 }
 
 .portfolio-wrap img{
@@ -1014,7 +1013,7 @@ font-size: 100px;
 }
 
 .portfolio-menu li {
-  display: inline-block;
+  display: block;
   margin: 5px 10px;
   padding-bottom: 5px;
   font-size: 14px;
