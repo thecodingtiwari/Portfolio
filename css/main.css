@@ -889,7 +889,7 @@ font-size: 100px;
 }
 
 .portfolio-wrap a:before {
-  /*position: absolute;*/
+  position: absolute;
   content: "";
   font-family: "Font Awesome 5 Free";
   height: 100%;
@@ -914,7 +914,7 @@ font-size: 100px;
 }
 
 .portfolio-hover{
-  /*position: absolute;*/
+  position: absolute;
   bottom: 60px;
   left: 80px;
   color: #fff;
@@ -985,7 +985,7 @@ font-size: 100px;
 }
 
 .portfolio-hover span:before {
-  /*position: absolute;*/
+  position: absolute;
   content: "";
   left: -35px;
   top: 8px;
