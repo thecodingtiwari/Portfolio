@@ -996,7 +996,7 @@ font-size: 100px;
 
 .portfolio-wrap
 {
-  height: 250px;
+  height: 100% !important;
   width: 100%;
   overflow: hidden;
 }
